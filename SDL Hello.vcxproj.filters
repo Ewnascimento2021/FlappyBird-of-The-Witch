@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameStates">
+      <UniqueIdentifier>{c056b9de-4124-4962-85d3-9e1797dffdd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStates">
+      <UniqueIdentifier>{53b1cecd-bb7c-4ef6-8fb7-c22c50f7d700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{d15355f4-ffed-4389-b44d-362d782fd264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\StateMachine">
+      <UniqueIdentifier>{b16888be-fb0f-4f81-9509-1ae34d21b1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Managers">
+      <UniqueIdentifier>{41d6e492-5c8a-492b-86e0-26a905ca9c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{07bde3a0-a9fe-4c38-9c79-39ce16208ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\StateMachine">
+      <UniqueIdentifier>{e4da78a5-2734-4eab-b347-424dcad37d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Utils">
+      <UniqueIdentifier>{76623e3b-d4ed-489c-96e9-98eeace62e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resources\Audio">
+      <UniqueIdentifier>{6da87263-a7f4-442b-b062-1f8769f8d5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Sprites">
+      <UniqueIdentifier>{88dc9738-d38c-414d-b576-13449221e5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Fonts">
+      <UniqueIdentifier>{79b23b45-a5d3-4e61-bce7-5ac7a2549a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\GameObjects">
+      <UniqueIdentifier>{bc822df8-7fc4-44f3-85c0-72e37c248bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\GameObjects">
+      <UniqueIdentifier>{947a5254-ead6-4a92-968c-62ade350cb23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{ef0b6494-55ac-4c87-b42f-1050a42c3223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Sprites\Numbers">
+      <UniqueIdentifier>{5892770c-f93c-49af-ac52-0a61ccaa31ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Managers">
+      <UniqueIdentifier>{ddd67499-a2f1-4492-b17b-2f45e00a92a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateMachine.cpp">
+      <Filter>Source Files\Core\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Core\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticImage.cpp">
+      <Filter>Source Files\Core\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Core\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>Source Files\Core\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files\Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateMachine.h">
+      <Filter>Header Files\Core\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateBase.h">
+      <Filter>Header Files\Core\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Core\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Core\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticImage.h">
+      <Filter>Header Files\Core\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Core\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>Header Files\Core\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\Audio\bgMenu.wav">
+      <Filter>Resources\Audio</Filter>
+    </Media>
+    <Media Include="Resources\Audio\btnClick.wav">
+      <Filter>Resources\Audio</Filter>
+    </Media>
+    <Media Include="Resources\Audio\bgGame.wav">
+      <Filter>Resources\Audio</Filter>
+    </Media>
+    <Media Include="Resources\Audio\playGame.wav">
+      <Filter>Resources\Audio</Filter>
+    </Media>
+    <Media Include="Resources\Audio\bgGameOver.wav">
+      <Filter>Resources\Audio</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Fonts\pixelFont.ttf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="..\Projetos\FlappyBird\Fontes\FELIXTI.TTF">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Sprites\btnPlay.png">
+      <Filter>Resources\Sprites</Filter>
+    </Image>
+    <Image Include="Resources\Textures\bgGame.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\bgMenu.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="..\Projetos\FlappyBird\Imagens\Bruxa.png">
+      <Filter>Resources\Sprites</Filter>
+    </Image>
+    <Image Include="..\Projetos\FlappyBird\Imagens\Fogueira.png">
+      <Filter>Resources\Sprites</Filter>
+    </Image>
+    <Image Include="Resources\Textures\bgGameOver.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="..\Projetos\FlappyBird\Imagens\btnRestart.png">
+      <Filter>Resources\Sprites</Filter>
+    </Image>
+    <Image Include="..\Projetos\FlappyBird\Imagens\Numbers\6.png">
+      <Filter>Resources\Sprites\Numbers</Filter>
+    </Image>
+    <Image Include="..\Projetos\FlappyBird\Imagens\Numbers\7.png">
+      <Filter>Resources\Sprites\Numbers</Filter>
+    </Image>
+    <Image Include="..\Projetos\FlappyBird\Imagens\Numbers\8.png">
+      <Filter>Resources\Sprites\Numbers</Filter>
+    </Image>
+    <Image Include="..\Projetos\FlappyBird\Imagens\Numbers\9.png">
+      <Filter>Resources\Sprites\Numbers</Filter>
+    </Image>
+    <Image Include="..\Projetos\FlappyBird\Imagens\Numbers\0.png">
+      <Filter>Resources\Sprites\Numbers</Filter>
+    </Image>
+    <Image Include="..\Projetos\FlappyBird\Imagens\Numbers\1.png">
+      <Filter>Resources\Sprites\Numbers</Filter>
+    </Image>
+    <Image Include="..\Projetos\FlappyBird\Imagens\Numbers\2.png">
+      <Filter>Resources\Sprites\Numbers</Filter>
+    </Image>
+    <Image Include="..\Projetos\FlappyBird\Imagens\Numbers\3.png">
+      <Filter>Resources\Sprites\Numbers</Filter>
+    </Image>
+    <Image Include="..\Projetos\FlappyBird\Imagens\Numbers\4.png">
+      <Filter>Resources\Sprites\Numbers</Filter>
+    </Image>
+    <Image Include="..\Projetos\FlappyBird\Imagens\Numbers\5.png">
+      <Filter>Resources\Sprites\Numbers</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
